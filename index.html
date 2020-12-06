@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+        <meta name="description" content="Entrega- HTML y CSS  Carlos Alonso"/>
+        <meta name="keywords" content="GIT, Miriada-X, Ejercicio, P2P, M3"/>
+        <meta name="author" content="Carlos Alonso"/>
+        <meta name="copyright" content="Carlos Alonso"/>
+        <meta name="robots" content="noindex,nofollow"/>
+		<title>Calculator</title>
+	</head>
+	<body>
+		<h1>Calculadora de Carlos Alonso</h1>
+		Number:
+		<input type="text" id="n1">
+		<p>
+			<button onclick="cube()"> x^3 </button>
+		</p>
+		<script type="text/javascript">
+			function cube() {
+				var num = document.getElementById("n1");
+				num.value = Math.pow(num.value, 3);
+			}
+		</script>
+	</body>
+</html>
